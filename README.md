@@ -1,11 +1,12 @@
 # VPython Projects
 
-This repository contains two VPython demo projects that demonstrate orbital motion and launch dynamics.
+This repository contains three VPython demo projects that demonstrate orbital motion, launch dynamics, and Earth-Moon orbital interaction.
 
 ## Projects
 
 - `basic orbit simulation/` — rocket orbiting Earth with a green globe, animated thrust flame, and orbital motion visualization.
 - `rocket launch simulation/` — rocket takeoff and gravity turn simulation with an automatic follow camera.
+- `earth moon orbit simulation/` — rocket launch and figure-eight style orbit around Earth and the Moon.
 
 ## Getting Started
 
@@ -52,6 +53,8 @@ This repository contains two VPython demo projects that demonstrate orbital moti
 - `basic orbit simulation/QUICKSTART.md` — quick start guide for the basic orbit demo
 - `rocket launch simulation/rocket_launch_simulation.py` — rocket launch demo script
 - `rocket launch simulation/QUICKSTART.md` — quick start guide for the rocket launch demo
+- `earth moon orbit simulation/earth_moon_orbit_simulation.py` — Earth-Moon orbit demo script
+- `earth moon orbit simulation/QUICKSTART.md` — quick start guide for the Earth-Moon orbit demo
 
 ## Requirements
 
