@@ -1,6 +1,6 @@
 # Rocket Launch Simulation
 
-This project demonstrates a simple VPython rocket launch from take-off through a gravity turn into orbit.
+This demo shows a VPython rocket launch from take-off through a gravity turn into orbit, with a camera that follows the rocket.
 
 ## Setup
 
@@ -25,3 +25,7 @@ python rocket_launch_simulation.py
 
 - The VPython window will auto-focus on the rocket as it climbs and transitions into orbit.
 - The simulation uses a simplified thrust profile and gravity turn for learning purposes.
+- You can also run the demo from the repository root:
+  ```bash
+  python "rocket launch simulation/rocket_launch_simulation.py"
+  ```

@@ -1,5 +1,7 @@
 # Quick Start
 
+This demo shows a rocket orbiting Earth using VPython, with an animated thrust flame and orbit visualization.
+
 ## 1. Create or activate your Python environment
 
 Using `venv`:
@@ -33,7 +35,7 @@ pip install -r ../requirements.txt
 ## 3. Run the simulation
 
 ```bash
-python basic_orbit_sim.py
+python basic_orbit_simulation.py
 ```
 
 ## 4. Controls
@@ -45,3 +47,7 @@ python basic_orbit_sim.py
 
 - The simulation uses VPython, which opens a local browser window for visualization.
 - If the window does not appear, make sure your environment supports VPython and that your browser is available.
+- If you prefer, run the demo from the repository root with:
+  ```bash
+  python "basic orbit simulation/basic_orbit_simulation.py"
+  ```

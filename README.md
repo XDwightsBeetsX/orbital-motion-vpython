@@ -1,25 +1,63 @@
 # VPython Projects
 
-This repository holds multiple VPython demo projects. The first project is a basic orbital mechanics simulation in the `basic orbit simulation` folder.
+This repository contains two VPython demo projects that demonstrate orbital motion and launch dynamics.
 
 ## Projects
 
-- `basic orbit simulation/` — first demo: a rocket orbiting Earth with a solid green globe and animated thrust flame.
-- `rocket launch simulation/` — new demo: a take-off to orbit rocket launch simulation with automatic camera follow.
+- `basic orbit simulation/` — rocket orbiting Earth with a green globe, animated thrust flame, and orbital motion visualization.
+- `rocket launch simulation/` — rocket takeoff and gravity turn simulation with an automatic follow camera.
+
+## Getting Started
+
+1. Create and activate a Python virtual environment.
+
+   Windows:
+   ```powershell
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
+   macOS / Linux:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. Install the shared dependency.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running the demos
+
+- Basic orbit simulation:
+  ```bash
+  cd "basic orbit simulation"
+  python basic_orbit_simulation.py
+  ```
+
+- Rocket launch simulation:
+  ```bash
+  cd "rocket launch simulation"
+  python rocket_launch_simulation.py
+  ```
 
 ## Files
 
 - `requirements.txt` — Python package dependencies for all VPython projects
 - `.gitignore` — ignored files for Git
 - `README.md` — repository overview
-- `basic orbit simulation/basic_orbit_simulation.py` — first project script
-- `basic orbit simulation/QUICKSTART.md` — instructions specific to the first project
+- `basic orbit simulation/basic_orbit_simulation.py` — basic orbit demo script
+- `basic orbit simulation/QUICKSTART.md` — quick start guide for the basic orbit demo
+- `rocket launch simulation/rocket_launch_simulation.py` — rocket launch demo script
+- `rocket launch simulation/QUICKSTART.md` — quick start guide for the rocket launch demo
 
 ## Requirements
 
-- Python 3.8+ (Python 3.10 or newer recommended)
+- Python 3.8 or newer
 - `vpython` package
 
 ## Notes
 
-Each subfolder holds a VPython project and may include its own quick start or documentation. Use the top-level `requirements.txt` to install the dependency once for all projects.
+Each subfolder contains an independent VPython demo. Use the top-level `requirements.txt` once to install the dependency for both projects.

@@ -1,6 +1,6 @@
 """Simple VPython orbital mechanics demo with U.S. empirical units.
 
-Run with: python orbit_sim.py
+Run with: python basic_orbit_simulation.py
 
 Requires: vpython
 Install with: pip install vpython
