@@ -69,14 +69,6 @@ Thumbs.db
 # local configuration
 *.env
 
-# Visual output from VPython or other graphical tools
-*.png
-*.jpg
-*.bmp
-*.obj
-*.dat
-*.out
-
 # Python compiled extensions
 *.pyd
 
